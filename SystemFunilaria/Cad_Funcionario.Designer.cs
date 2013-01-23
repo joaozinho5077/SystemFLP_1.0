@@ -50,6 +50,7 @@
             this.txt_Rua = new System.Windows.Forms.TextBox();
             this.txt_Numero = new System.Windows.Forms.TextBox();
             this.da = new System.Windows.Forms.GroupBox();
+            this.maskedtxt_CPF = new System.Windows.Forms.MaskedTextBox();
             this.cbx_Cargo = new System.Windows.Forms.ComboBox();
             this.label_Codigo = new System.Windows.Forms.Label();
             this.label_Cargo = new System.Windows.Forms.Label();
@@ -60,14 +61,15 @@
             this.label_Nome = new System.Windows.Forms.Label();
             this.txt_Apelido = new System.Windows.Forms.TextBox();
             this.bt_Limpar = new System.Windows.Forms.Button();
-            this.maskedtxt_CPF = new System.Windows.Forms.MaskedTextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_Salario = new System.Windows.Forms.TextBox();
             this.gbx_Endereco.SuspendLayout();
             this.da.SuspendLayout();
             this.SuspendLayout();
             // 
             // bt_Salvar
             // 
-            this.bt_Salvar.Location = new System.Drawing.Point(508, 461);
+            this.bt_Salvar.Location = new System.Drawing.Point(508, 469);
             this.bt_Salvar.Name = "bt_Salvar";
             this.bt_Salvar.Size = new System.Drawing.Size(75, 23);
             this.bt_Salvar.TabIndex = 22;
@@ -76,7 +78,7 @@
             // 
             // bt_Gravar
             // 
-            this.bt_Gravar.Location = new System.Drawing.Point(427, 461);
+            this.bt_Gravar.Location = new System.Drawing.Point(427, 469);
             this.bt_Gravar.Name = "bt_Gravar";
             this.bt_Gravar.Size = new System.Drawing.Size(75, 23);
             this.bt_Gravar.TabIndex = 21;
@@ -85,6 +87,8 @@
             // 
             // gbx_Endereco
             // 
+            this.gbx_Endereco.Controls.Add(this.label2);
+            this.gbx_Endereco.Controls.Add(this.txt_Salario);
             this.gbx_Endereco.Controls.Add(this.label1);
             this.gbx_Endereco.Controls.Add(this.textBox1);
             this.gbx_Endereco.Controls.Add(this.label1_Obs);
@@ -106,7 +110,7 @@
             this.gbx_Endereco.Location = new System.Drawing.Point(12, 124);
             this.gbx_Endereco.Name = "gbx_Endereco";
             this.gbx_Endereco.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.gbx_Endereco.Size = new System.Drawing.Size(569, 331);
+            this.gbx_Endereco.Size = new System.Drawing.Size(569, 339);
             this.gbx_Endereco.TabIndex = 18;
             this.gbx_Endereco.TabStop = false;
             this.gbx_Endereco.Text = "ENDEREÇO";
@@ -219,7 +223,7 @@
             this.txt_Observacao.Location = new System.Drawing.Point(6, 189);
             this.txt_Observacao.Multiline = true;
             this.txt_Observacao.Name = "txt_Observacao";
-            this.txt_Observacao.Size = new System.Drawing.Size(557, 136);
+            this.txt_Observacao.Size = new System.Drawing.Size(557, 103);
             this.txt_Observacao.TabIndex = 16;
             // 
             // txt_Email
@@ -286,14 +290,22 @@
             this.da.TabIndex = 19;
             this.da.TabStop = false;
             // 
+            // maskedtxt_CPF
+            // 
+            this.maskedtxt_CPF.Location = new System.Drawing.Point(96, 32);
+            this.maskedtxt_CPF.Name = "maskedtxt_CPF";
+            this.maskedtxt_CPF.Size = new System.Drawing.Size(118, 20);
+            this.maskedtxt_CPF.TabIndex = 13;
+            // 
             // cbx_Cargo
             // 
             this.cbx_Cargo.FormattingEnabled = true;
             this.cbx_Cargo.Items.AddRange(new object[] {
-            "FUNILEIRO",
-            "MECÂNICO",
-            "PINTOR",
-            "TAPEÇEIRO"});
+            "Funileiro",
+            "Mecânico",
+            "Pintor",
+            "Tapeceiro",
+            "Montador"});
             this.cbx_Cargo.Location = new System.Drawing.Point(407, 70);
             this.cbx_Cargo.Name = "cbx_Cargo";
             this.cbx_Cargo.Size = new System.Drawing.Size(156, 21);
@@ -367,25 +379,37 @@
             // 
             // bt_Limpar
             // 
-            this.bt_Limpar.Location = new System.Drawing.Point(346, 461);
+            this.bt_Limpar.Location = new System.Drawing.Point(346, 469);
             this.bt_Limpar.Name = "bt_Limpar";
             this.bt_Limpar.Size = new System.Drawing.Size(75, 23);
             this.bt_Limpar.TabIndex = 20;
             this.bt_Limpar.Text = "Limpar";
             this.bt_Limpar.UseVisualStyleBackColor = true;
             // 
-            // maskedtxt_CPF
+            // label2
             // 
-            this.maskedtxt_CPF.Location = new System.Drawing.Point(96, 32);
-            this.maskedtxt_CPF.Name = "maskedtxt_CPF";
-            this.maskedtxt_CPF.Size = new System.Drawing.Size(118, 20);
-            this.maskedtxt_CPF.TabIndex = 13;
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(368, 301);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(112, 25);
+            this.label2.TabIndex = 28;
+            this.label2.Text = "Salário R$";
+            // 
+            // txt_Salario
+            // 
+            this.txt_Salario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Salario.Location = new System.Drawing.Point(479, 298);
+            this.txt_Salario.Name = "txt_Salario";
+            this.txt_Salario.Size = new System.Drawing.Size(84, 31);
+            this.txt_Salario.TabIndex = 27;
+            this.txt_Salario.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // Cad_Funcionario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(594, 491);
+            this.ClientSize = new System.Drawing.Size(594, 500);
             this.Controls.Add(this.bt_Salvar);
             this.Controls.Add(this.bt_Gravar);
             this.Controls.Add(this.gbx_Endereco);
@@ -436,5 +460,7 @@
         private System.Windows.Forms.Label label_Nome;
         private System.Windows.Forms.TextBox txt_Apelido;
         private System.Windows.Forms.Button bt_Limpar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_Salario;
     }
 }

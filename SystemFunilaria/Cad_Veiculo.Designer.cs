@@ -68,6 +68,7 @@
             this.bt_Pesquisar.TabIndex = 41;
             this.bt_Pesquisar.Text = "Pesquisar";
             this.bt_Pesquisar.UseVisualStyleBackColor = true;
+            this.bt_Pesquisar.Click += new System.EventHandler(this.bt_Pesquisar_Click);
             // 
             // txt_Proprietario
             // 

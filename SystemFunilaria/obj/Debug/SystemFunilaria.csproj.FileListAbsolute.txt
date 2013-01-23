@@ -17,3 +17,16 @@ F:\Projetos C#\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.pdb
 F:\SystemFunilaria\SystemFunilaria\bin\Debug\SystemFunilaria.exe.config
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.exe
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.pdb
+F:\SystemFunilaria\SystemFunilaria\bin\Debug\SystemFunilaria.exe
+F:\SystemFunilaria\SystemFunilaria\bin\Debug\SystemFunilaria.pdb
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.csprojResolveAssemblyReference.cache
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Cad_Cliente.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Cad_Funcionario.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Cad_Veiculo.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.FormPrincipal.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Lista_CLientes.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Lista_Funcionarios.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Lista_Veiculos.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Ordem_de_Servico.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Properties.Resources.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.csproj.GenerateResource.Cache

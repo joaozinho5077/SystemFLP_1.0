@@ -16,5 +16,16 @@ namespace SystemFunilaria
         {
             InitializeComponent();
         }
+
+        private void Lista_Veiculos_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_Adicionar_Click(object sender, EventArgs e)
+        {
+            Cad_Veiculo frm = new Cad_Veiculo();
+            frm.Show();
+        }
     }
 }

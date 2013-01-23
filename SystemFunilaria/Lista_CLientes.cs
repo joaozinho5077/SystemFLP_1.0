@@ -16,5 +16,11 @@ namespace SystemFunilaria
         {
             InitializeComponent();
         }
+
+        private void bt_Adicionar_Click(object sender, EventArgs e)
+        {
+            Cad_Cliente frm = new Cad_Cliente();
+            frm.Show();
+        }
     }
 }

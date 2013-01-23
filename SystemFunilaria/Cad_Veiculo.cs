@@ -16,5 +16,11 @@ namespace SystemFunilaria
         {
             InitializeComponent();
         }
+
+        private void bt_Pesquisar_Click(object sender, EventArgs e)
+        {
+            Lista_CLientes frm = new Lista_CLientes();
+            frm.Show();
+        }
     }
 }

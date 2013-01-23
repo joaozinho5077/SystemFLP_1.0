@@ -16,5 +16,27 @@ namespace SystemFunilaria
         {
             InitializeComponent();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Lista_Veiculos frm = new Lista_Veiculos();
+            frm.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Lista_CLientes frm = new Lista_CLientes();
+            frm.Show();
+        }
     }
 }

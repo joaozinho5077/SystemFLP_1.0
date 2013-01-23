@@ -16,5 +16,11 @@ namespace SystemFunilaria
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Ordem_de_Servico frm = new Ordem_de_Servico();
+            frm.Show();
+        }
     }
 }
