@@ -44,14 +44,80 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Cad_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Cad_Cliente.Designer.cs">
+      <DependentUpon>Cad_Cliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cad_Funcionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cad_Funcionario.Designer.cs">
+      <DependentUpon>Cad_Funcionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cad_Veiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cad_Veiculo.Designer.cs">
+      <DependentUpon>Cad_Veiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lista_CLientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista_CLientes.Designer.cs">
+      <DependentUpon>Lista_CLientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lista_Funcionarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista_Funcionarios.Designer.cs">
+      <DependentUpon>Lista_Funcionarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lista_Veiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lista_Veiculos.Designer.cs">
+      <DependentUpon>Lista_Veiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ordem_de_Servico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ordem_de_Servico.Designer.cs">
+      <DependentUpon>Ordem_de_Servico.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Cad_Cliente.resx">
+      <DependentUpon>Cad_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cad_Funcionario.resx">
+      <DependentUpon>Cad_Funcionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cad_Veiculo.resx">
+      <DependentUpon>Cad_Veiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista_CLientes.resx">
+      <DependentUpon>Lista_CLientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista_Funcionarios.resx">
+      <DependentUpon>Lista_Funcionarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lista_Veiculos.resx">
+      <DependentUpon>Lista_Veiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ordem_de_Servico.resx">
+      <DependentUpon>Ordem_de_Servico.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
