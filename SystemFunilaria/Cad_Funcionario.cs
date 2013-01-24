@@ -12,6 +12,7 @@ namespace SystemFunilaria
 {
     public partial class Cad_Funcionario : Form
     {
+        public Funcoes FuncoesCor = new Funcoes();
         public Cad_Funcionario()
         {
             InitializeComponent();
@@ -21,5 +22,26 @@ namespace SystemFunilaria
         {
 
         }
+
+        private void maskedtxt_CPF_Enter(object sender, EventArgs e)
+        {
+            FuncoesCor.changeMaskedTextBoxFocusIn(sender);
+        }
+
+        private void maskedtxt_CPF_Leave(object sender, EventArgs e)
+        {
+            FuncoesCor.changeMaskedTextBoxFocusIOut(sender);
+        }
+
+        private void txt_Apelido_Enter(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusIn(sender);
+        }
+
+        private void txt_Apelido_Leave(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusOut(sender);
+        }
+        
     }
 }

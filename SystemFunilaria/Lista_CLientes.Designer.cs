@@ -91,10 +91,15 @@
             this.txt_CpfCnpj.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_CpfCnpj.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txt_CpfCnpj.Location = new System.Drawing.Point(6, 17);
+            this.txt_CpfCnpj.MaxLength = 13;
             this.txt_CpfCnpj.Name = "txt_CpfCnpj";
             this.txt_CpfCnpj.Size = new System.Drawing.Size(267, 38);
             this.txt_CpfCnpj.TabIndex = 0;
             this.txt_CpfCnpj.Text = "CPF/CNPJ";
+            this.txt_CpfCnpj.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_CpfCnpj.TextChanged += new System.EventHandler(this.txt_CpfCnpj_TextChanged);
+            this.txt_CpfCnpj.Enter += new System.EventHandler(this.txt_CpfCnpj_Enter);
+            this.txt_CpfCnpj.Leave += new System.EventHandler(this.txt_CpfCnpj_Leave);
             // 
             // groupBox1
             // 
@@ -115,6 +120,8 @@
             this.txt_Nome.Size = new System.Drawing.Size(615, 26);
             this.txt_Nome.TabIndex = 4;
             this.txt_Nome.Text = "Nome do cliente";
+            this.txt_Nome.Enter += new System.EventHandler(this.txt_CpfCnpj_Enter);
+            this.txt_Nome.Leave += new System.EventHandler(this.txt_CpfCnpj_Leave);
             // 
             // Lista_CLientes
             // 

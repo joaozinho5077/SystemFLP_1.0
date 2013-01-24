@@ -12,6 +12,7 @@ namespace SystemFunilaria
 {
     public partial class Ordem_de_Servico : Form
     {
+        public Funcoes FuncoesCor = new Funcoes();
         public Ordem_de_Servico()
         {
             InitializeComponent();
@@ -38,5 +39,16 @@ namespace SystemFunilaria
             Lista_CLientes frm = new Lista_CLientes();
             frm.Show();
         }
+
+        private void txt_NomeCliente_Enter(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusIn(sender);
+        }
+
+        private void txt_NomeCliente_Leave(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusOut(sender);
+        }
+
     }
 }

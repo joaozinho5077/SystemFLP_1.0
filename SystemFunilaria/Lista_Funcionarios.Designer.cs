@@ -78,9 +78,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.txt_NomeApelido);
-            this.groupBox1.Location = new System.Drawing.Point(364, 12);
+            this.groupBox1.Location = new System.Drawing.Point(311, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(633, 61);
+            this.groupBox1.Size = new System.Drawing.Size(686, 61);
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "NOME/APELIDO";
@@ -94,13 +94,15 @@
             this.txt_NomeApelido.Size = new System.Drawing.Size(600, 26);
             this.txt_NomeApelido.TabIndex = 4;
             this.txt_NomeApelido.Text = "Nome/Apelido";
+            this.txt_NomeApelido.Enter += new System.EventHandler(this.txt_CpfCodigo_Enter);
+            this.txt_NomeApelido.Leave += new System.EventHandler(this.txt_CpfCodigo_Leave);
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.txt_CpfCodigo);
             this.groupBox2.Location = new System.Drawing.Point(12, 12);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(346, 61);
+            this.groupBox2.Size = new System.Drawing.Size(293, 61);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "CPF/CÓDIGO";
@@ -111,9 +113,13 @@
             this.txt_CpfCodigo.ForeColor = System.Drawing.SystemColors.ScrollBar;
             this.txt_CpfCodigo.Location = new System.Drawing.Point(6, 17);
             this.txt_CpfCodigo.Name = "txt_CpfCodigo";
-            this.txt_CpfCodigo.Size = new System.Drawing.Size(305, 38);
+            this.txt_CpfCodigo.Size = new System.Drawing.Size(246, 38);
             this.txt_CpfCodigo.TabIndex = 0;
             this.txt_CpfCodigo.Text = "CPF/Código";
+            this.txt_CpfCodigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txt_CpfCodigo.TextChanged += new System.EventHandler(this.txt_CpfCodigo_TextChanged);
+            this.txt_CpfCodigo.Enter += new System.EventHandler(this.txt_CpfCodigo_Enter);
+            this.txt_CpfCodigo.Leave += new System.EventHandler(this.txt_CpfCodigo_Leave);
             // 
             // Lista_Funcionarios
             // 

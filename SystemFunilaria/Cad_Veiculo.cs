@@ -12,6 +12,7 @@ namespace SystemFunilaria
 {
     public partial class Cad_Veiculo : Form
     {
+        public Funcoes FuncoesCor = new Funcoes();
         public Cad_Veiculo()
         {
             InitializeComponent();
@@ -21,6 +22,16 @@ namespace SystemFunilaria
         {
             Lista_CLientes frm = new Lista_CLientes();
             frm.Show();
+        }
+
+        private void txt_Proprietario_Enter(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusIn(sender);
+        }
+
+        private void txt_Proprietario_Leave(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusOut(sender);
         }
     }
 }

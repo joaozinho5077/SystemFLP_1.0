@@ -12,6 +12,7 @@ namespace SystemFunilaria
 {
     public partial class Lista_CLientes : Form
     {
+        public Funcoes FuncoesCor = new Funcoes();
         public Lista_CLientes()
         {
             InitializeComponent();
@@ -21,6 +22,21 @@ namespace SystemFunilaria
         {
             Cad_Cliente frm = new Cad_Cliente();
             frm.Show();
+        }
+
+        public void txt_CpfCnpj_Enter(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusIn(sender);
+        }
+
+        private void txt_CpfCnpj_Leave(object sender, EventArgs e)
+        {
+            FuncoesCor.changeTextBoxFocusOut(sender);
+        }
+
+        private void txt_CpfCnpj_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

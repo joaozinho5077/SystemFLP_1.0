@@ -22,5 +22,11 @@ namespace SystemFunilaria
             Ordem_de_Servico frm = new Ordem_de_Servico();
             frm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Cad_Funcionario frm = new Cad_Funcionario();
+            frm.Show();
+        }
     }
 }

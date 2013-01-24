@@ -68,6 +68,7 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Funcoes.cs" />
     <Compile Include="Lista_CLientes.cs">
       <SubType>Form</SubType>
     </Compile>
