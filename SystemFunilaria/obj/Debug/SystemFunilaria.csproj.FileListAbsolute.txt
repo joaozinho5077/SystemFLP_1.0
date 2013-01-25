@@ -30,3 +30,4 @@ F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Lista_Veiculos.reso
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Ordem_de_Servico.resources
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Properties.Resources.resources
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.csproj.GenerateResource.Cache
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Comissao_Orcamento.resources

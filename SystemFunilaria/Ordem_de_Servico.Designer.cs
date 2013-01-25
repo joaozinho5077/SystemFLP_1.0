@@ -465,6 +465,7 @@
             this.txt_TotalPecas.Name = "txt_TotalPecas";
             this.txt_TotalPecas.Size = new System.Drawing.Size(111, 26);
             this.txt_TotalPecas.TabIndex = 19;
+            this.txt_TotalPecas.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txt_TotalPecas.Enter += new System.EventHandler(this.txt_NomeCliente_Enter);
             this.txt_TotalPecas.Leave += new System.EventHandler(this.txt_NomeCliente_Leave);
             // 
@@ -475,6 +476,7 @@
             this.txt_mao_de_obra.Name = "txt_mao_de_obra";
             this.txt_mao_de_obra.Size = new System.Drawing.Size(111, 26);
             this.txt_mao_de_obra.TabIndex = 21;
+            this.txt_mao_de_obra.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txt_mao_de_obra.Enter += new System.EventHandler(this.txt_NomeCliente_Enter);
             this.txt_mao_de_obra.Leave += new System.EventHandler(this.txt_NomeCliente_Leave);
             // 
@@ -494,6 +496,7 @@
             this.txt_Desconto.Name = "txt_Desconto";
             this.txt_Desconto.Size = new System.Drawing.Size(111, 26);
             this.txt_Desconto.TabIndex = 20;
+            this.txt_Desconto.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txt_Desconto.Enter += new System.EventHandler(this.txt_NomeCliente_Enter);
             this.txt_Desconto.Leave += new System.EventHandler(this.txt_NomeCliente_Leave);
             // 
@@ -524,6 +527,7 @@
             this.txt_Total.Name = "txt_Total";
             this.txt_Total.Size = new System.Drawing.Size(111, 26);
             this.txt_Total.TabIndex = 22;
+            this.txt_Total.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txt_Total.Enter += new System.EventHandler(this.txt_NomeCliente_Enter);
             this.txt_Total.Leave += new System.EventHandler(this.txt_NomeCliente_Leave);
             // 
@@ -587,8 +591,9 @@
             this.bt_ComissaoFuncionario.Name = "bt_ComissaoFuncionario";
             this.bt_ComissaoFuncionario.Size = new System.Drawing.Size(190, 35);
             this.bt_ComissaoFuncionario.TabIndex = 11;
-            this.bt_ComissaoFuncionario.Text = "Comissão do Funcionários";
+            this.bt_ComissaoFuncionario.Text = "Comissão do Funcionário";
             this.bt_ComissaoFuncionario.UseVisualStyleBackColor = true;
+            this.bt_ComissaoFuncionario.Click += new System.EventHandler(this.bt_ComissaoFuncionario_Click);
             // 
             // comboBox_TipoServico
             // 
@@ -652,6 +657,7 @@
             this.Controls.Add(this.groupBox2);
             this.Name = "Ordem_de_Servico";
             this.Text = " ";
+            this.Load += new System.EventHandler(this.Ordem_de_Servico_Load);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);

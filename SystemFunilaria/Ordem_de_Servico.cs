@@ -50,5 +50,16 @@ namespace SystemFunilaria
             FuncoesCor.changeTextBoxFocusOut(sender);
         }
 
+        private void Ordem_de_Servico_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bt_ComissaoFuncionario_Click(object sender, EventArgs e)
+        {
+            Comissao_Orcamento frm = new Comissao_Orcamento();
+            frm.ShowDialog();
+        }
+
     }
 }
