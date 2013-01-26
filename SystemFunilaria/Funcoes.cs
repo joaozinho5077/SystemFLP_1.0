@@ -43,5 +43,12 @@ namespace SystemFunilaria
             MaskedTextBox m = masktxt as MaskedTextBox;
             m.BackColor = Color.White;
         }
+
+        //Método apresentação do formInformacao com a mensagem salvar
+        public void apresentaSalvo()
+        {
+            FormInformacao abrir = new FormInformacao();
+            abrir.Show();
+        }
     }
 }

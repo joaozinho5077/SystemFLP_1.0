@@ -68,6 +68,12 @@
     <Compile Include="Comissao_Orcamento.Designer.cs">
       <DependentUpon>Comissao_Orcamento.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormInformacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInformacao.Designer.cs">
+      <DependentUpon>FormInformacao.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     <EmbeddedResource Include="Comissao_Orcamento.resx">
       <DependentUpon>Comissao_Orcamento.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormInformacao.resx">
+      <DependentUpon>FormInformacao.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -136,6 +145,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -149,6 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\correto.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

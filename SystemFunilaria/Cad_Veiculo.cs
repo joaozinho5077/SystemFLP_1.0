@@ -33,5 +33,20 @@ namespace SystemFunilaria
         {
             FuncoesCor.changeTextBoxFocusOut(sender);
         }
+
+        private void bt_Gravar_Click(object sender, EventArgs e)
+        {
+            FuncoesCor.apresentaSalvo();
+        }
+
+        private void bt_Cadastrar_Click(object sender, EventArgs e)
+        {
+            FuncoesCor.apresentaSalvo();
+        }
+
+        private void Cad_Veiculo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

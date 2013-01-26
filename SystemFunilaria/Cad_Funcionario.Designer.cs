@@ -73,6 +73,7 @@
             this.bt_Salvar.TabIndex = 17;
             this.bt_Salvar.Text = "Salvar";
             this.bt_Salvar.UseVisualStyleBackColor = true;
+            this.bt_Salvar.Click += new System.EventHandler(this.bt_Salvar_Click);
             // 
             // bt_Gravar
             // 
@@ -82,6 +83,7 @@
             this.bt_Gravar.TabIndex = 16;
             this.bt_Gravar.Text = "Gravar";
             this.bt_Gravar.UseVisualStyleBackColor = true;
+            this.bt_Gravar.Click += new System.EventHandler(this.bt_Gravar_Click);
             // 
             // gbx_Endereco
             // 

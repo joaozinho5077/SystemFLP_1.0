@@ -88,6 +88,7 @@
             this.bt_Cadastrar.TabIndex = 12;
             this.bt_Cadastrar.Text = "Cadastrar";
             this.bt_Cadastrar.UseVisualStyleBackColor = true;
+            this.bt_Cadastrar.Click += new System.EventHandler(this.bt_Cadastrar_Click);
             // 
             // bt_Gravar
             // 
@@ -97,6 +98,7 @@
             this.bt_Gravar.TabIndex = 11;
             this.bt_Gravar.Text = "Gravar";
             this.bt_Gravar.UseVisualStyleBackColor = true;
+            this.bt_Gravar.Click += new System.EventHandler(this.bt_Gravar_Click);
             // 
             // bt_Limpar
             // 
@@ -296,6 +298,7 @@
             this.Controls.Add(this.txt_OBS);
             this.Name = "Cad_Veiculo";
             this.Text = "Cad_Veiculo";
+            this.Load += new System.EventHandler(this.Cad_Veiculo_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

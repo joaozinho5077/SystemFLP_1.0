@@ -42,6 +42,16 @@ namespace SystemFunilaria
         {
             FuncoesCor.changeTextBoxFocusOut(sender);
         }
+
+        private void bt_Salvar_Click(object sender, EventArgs e)
+        {
+            FuncoesCor.apresentaSalvo();
+        }
+
+        private void bt_Gravar_Click(object sender, EventArgs e)
+        {
+            FuncoesCor.apresentaSalvo();
+        }
         
     }
 }

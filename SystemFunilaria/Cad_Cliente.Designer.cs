@@ -71,6 +71,7 @@
             this.bt_Salvar.TabIndex = 16;
             this.bt_Salvar.Text = "Salvar";
             this.bt_Salvar.UseVisualStyleBackColor = true;
+            this.bt_Salvar.Click += new System.EventHandler(this.bt_Salvar_Click);
             // 
             // bt_Gravar
             // 
@@ -80,6 +81,7 @@
             this.bt_Gravar.TabIndex = 15;
             this.bt_Gravar.Text = "Gravar";
             this.bt_Gravar.UseVisualStyleBackColor = true;
+            this.bt_Gravar.Click += new System.EventHandler(this.bt_Gravar_Click);
             // 
             // bt_Limpar
             // 
@@ -396,7 +398,6 @@
             this.Controls.Add(this.groupBox2);
             this.Name = "Cad_Cliente";
             this.Text = "Cad_Cliente";
-            this.Load += new System.EventHandler(this.Cad_Cliente_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

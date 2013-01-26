@@ -17,10 +17,6 @@ namespace SystemFunilaria
         {
             InitializeComponent();
         }
-        private void Cad_Cliente_Load(object sender, EventArgs e)
-        {
-          
-        }
         private void txt_Nome_Enter(object sender, EventArgs e)
         {
             FuncoesCor.changeTextBoxFocusIn(sender);
@@ -39,6 +35,16 @@ namespace SystemFunilaria
         private void maskedtxt_CPF_Leave(object sender, EventArgs e)
         {
             FuncoesCor.changeMaskedTextBoxFocusIOut(sender);
+        }
+
+        private void bt_Salvar_Click(object sender, EventArgs e)
+        {
+            FuncoesCor.apresentaSalvo();
+        }
+
+        private void bt_Gravar_Click(object sender, EventArgs e)
+        {
+            FuncoesCor.apresentaSalvo();
         }
 
         
