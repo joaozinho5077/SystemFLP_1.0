@@ -28,5 +28,10 @@ namespace SystemFunilaria
             Cad_Funcionario frm = new Cad_Funcionario();
             frm.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("");
+        }
     }
 }

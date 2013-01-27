@@ -31,6 +31,7 @@ F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Ordem_de_Servico.re
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Properties.Resources.resources
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.csproj.GenerateResource.Cache
 F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.Comissao_Orcamento.resources
+<<<<<<< HEAD
 C:\SystemFLP\SystemFunilaria\bin\Debug\SystemFunilaria.exe.config
 C:\SystemFLP\SystemFunilaria\obj\Debug\SystemFunilaria.exe
 C:\SystemFLP\SystemFunilaria\obj\Debug\SystemFunilaria.pdb
@@ -49,3 +50,9 @@ C:\SystemFLP\SystemFunilaria\obj\Debug\SystemFunilaria.Properties.Resources.reso
 C:\SystemFLP\SystemFunilaria\obj\Debug\SystemFunilaria.csproj.GenerateResource.Cache
 C:\SystemFLP\SystemFunilaria\bin\Debug\SystemFunilaria.exe
 C:\SystemFLP\SystemFunilaria\bin\Debug\SystemFunilaria.pdb
+=======
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.frm_Forma_de_Pagamento.resources
+F:\SystemFunilaria\SystemFunilaria\obj\Debug\SystemFunilaria.frm_Incluir_Peca_Servico.resources
+>>>>>>> origin/master
+C:\SystemFLP\SystemFunilaria\obj\Debug\SystemFunilaria.frm_Forma_de_Pagamento.resources
+C:\SystemFLP\SystemFunilaria\obj\Debug\SystemFunilaria.frm_Incluir_Peca_Servico.resources
