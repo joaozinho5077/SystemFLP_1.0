@@ -54,7 +54,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txt_NomeCliente = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.dateTime_Saida = new System.Windows.Forms.DateTimePicker();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txt_OrdemServico = new System.Windows.Forms.TextBox();
@@ -80,6 +79,7 @@
             this.comboBox_TipoServico = new System.Windows.Forms.ComboBox();
             this.label15 = new System.Windows.Forms.Label();
             this.bt_gerarPDF = new System.Windows.Forms.Button();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -350,7 +350,7 @@
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.groupBox2.Controls.Add(this.dateTime_Saida);
+            this.groupBox2.Controls.Add(this.maskedTextBox1);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.txt_OrdemServico);
@@ -361,15 +361,6 @@
             this.groupBox2.Size = new System.Drawing.Size(194, 118);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
-            // 
-            // dateTime_Saida
-            // 
-            this.dateTime_Saida.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTime_Saida.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTime_Saida.Location = new System.Drawing.Point(100, 81);
-            this.dateTime_Saida.Name = "dateTime_Saida";
-            this.dateTime_Saida.Size = new System.Drawing.Size(88, 22);
-            this.dateTime_Saida.TabIndex = 11;
             // 
             // label1
             // 
@@ -627,6 +618,15 @@
             this.bt_gerarPDF.Text = "Gerar PDF";
             this.bt_gerarPDF.UseVisualStyleBackColor = true;
             // 
+            // maskedTextBox1
+            // 
+            this.maskedTextBox1.Location = new System.Drawing.Point(100, 81);
+            this.maskedTextBox1.Mask = "00/00/0000";
+            this.maskedTextBox1.Name = "maskedTextBox1";
+            this.maskedTextBox1.Size = new System.Drawing.Size(88, 20);
+            this.maskedTextBox1.TabIndex = 14;
+            this.maskedTextBox1.ValidatingType = typeof(System.DateTime);
+            // 
             // Ordem_de_Servico
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -699,7 +699,6 @@
         private System.Windows.Forms.TextBox txt_NomeCliente;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DateTimePicker dateTime_Saida;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txt_OrdemServico;
         private System.Windows.Forms.Label label2;
@@ -725,5 +724,6 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Button bt_gerarPDF;
         private System.Windows.Forms.MaskedTextBox maskedTxb_Telefone;
+        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
     }
 }
