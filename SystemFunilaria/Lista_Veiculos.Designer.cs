@@ -128,6 +128,7 @@
             this.txt_Ano.Name = "txt_Ano";
             this.txt_Ano.Size = new System.Drawing.Size(44, 20);
             this.txt_Ano.TabIndex = 4;
+            this.txt_Ano.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // cbx_Marca
             // 
@@ -201,6 +202,7 @@
             this.txt_Placa.Name = "txt_Placa";
             this.txt_Placa.Size = new System.Drawing.Size(130, 40);
             this.txt_Placa.TabIndex = 2;
+            this.txt_Placa.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label1
             // 

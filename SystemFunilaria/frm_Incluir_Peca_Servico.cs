@@ -21,5 +21,15 @@ namespace SystemFunilaria
         {
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frm_Incluir_Peca_Servico_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
